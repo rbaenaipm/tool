@@ -1,0 +1,98 @@
+:root {
+    --login-bg:#D0D0D0;
+    --title-bg: #2D2F31;
+    --button-bg: #328BE5;
+    --light-pink: #348EE8;
+    --image-bg:  white ;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #9CDEFF 0%, #0A5F8A 100%);
+}
+
+.crud-container {
+    width: 85%;
+    margin: 2em auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: var(--login-bg);
+    height: wrap-content;
+}
+
+.container-button {
+    width: 100%;
+    height: 6%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+
+.logout{
+    width: 4%;
+    height: 50px;
+    background: #053361;
+    color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    border-color: aliceblue;
+}
+
+#myTable{
+    width:80%;
+    background-color: #053361;    ;
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 2%;
+    color: #ffffff;
+    border-color: #D0D0D0;
+}
+
+.buttoncontainer{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    color: #ffffff;
+    background: #053361;
+    width: 15%;
+    height: 60px;
+    border-radius: 15%;
+    margin-bottom: 10px;
+    border-color: #D0D0D0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .crud-container {
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+    
+    .image-container {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .crud-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .crud-container {
+        height: 90%;
+    }
+
+}
